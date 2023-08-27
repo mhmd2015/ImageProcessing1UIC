@@ -15,7 +15,7 @@ def convolution_2d(image, filt):
         return new_image
     
 
-imgPath = 'C:\\Users\\myahya\\source\\repos\\SPPy\\DIP\\noise.jpeg'
+imgPath = 'noise.jpeg'
 image = mpimg.imread(imgPath)[::0] #if image RGB just take one channel
 
 
